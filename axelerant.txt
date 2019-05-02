@@ -7,11 +7,11 @@ Instead of using the granting/revoking approach in cloud like AWS. you can use b
  1) Login to EC2 instance and verify the session manager process is running or not. By default latest AMI's has this process running default, if not install the session manager rpms and start the process.
  2) Navigate the user profile and assign the IAM session manager roles to the user.
  3) Once you have assigned the IAM session manager roles, the user will have capability to login EC2 instances through session Manager.
- 4) Session Manager helps in increase the security without any breaches.
+ 4) Session Manager is similar to concept like VDI in windows which helps to tighten the security.
  5) Incase, if you want to disable to ssh access, revoke the "session manager roles" for that user. then he cannot login.
  
  
- Note: If this approach is not suitable, i'll give the code the revoke/grant ssh access.
+ Note: If this approach is not suitable, i'll give the code to revoke/grant ssh access.
  
  
  
